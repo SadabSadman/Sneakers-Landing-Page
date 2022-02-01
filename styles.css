@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  margin: 1rem 2.5rem auto;
+}
+
+.nav-item {
+  font-weight: 700;
+  margin: 1rem 1.5rem;
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-image {
+  border-radius: 1.5rem;
+  margin: 7rem 6.25rem 3rem 10rem;
+  width: 30rem;
+  height: 30rem;
+}
+
+.product-thumbnail-container {
+  display: flex;
+}
+
+.product-1-thumbnail {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 0.5rem;
+  margin: auto 1rem 10rem 11rem;
+  opacity: 0.6;
+}
+
+.product-1-thumbnail:hover {
+  border: none;
+  opacity: 1;
+}
+
+.product-2-thumbnail {
+  border-radius: 0.5rem;
+  margin: auto 1rem 10rem auto;
+}
+
+.product-2-thumbnail:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  opacity: 0.6;
+}
+
+.product-3-thumbnail {
+  border-radius: 0.5rem;
+  margin: auto 1rem 10rem auto;
+}
+
+.product-3-thumbnail:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  opacity: 0.6;
+}
+
+.product-4-thumbnail {
+  border-radius: 0.5rem;
+  margin: auto 1rem 10rem auto;
+}
+
+.product-4-thumbnail:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  opacity: 0.6;
+}
+
+.company {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  display: inline-block;
+  margin: 11rem auto 1rem;
+}
+
+.company:hover {
+  color: hsl(26, 100%, 55%);
+  text-decoration: none;
+}
+
+.hero-header {
+  font-weight: 700;
+  margin: auto 0 2rem;
+  width: 30rem;
+}
+
+.hero-description {
+  color: hsl(219, 9%, 45%);
+  margin: auto 0 2rem;
+  width: 30rem;
+}
+
+.product-pricing {
+  font-weight: 700;
+  float: left;
+  margin: auto 1rem 1rem auto;
+}
+
+.discount-button {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  padding: auto 0.625rem;
+}
+
+.discount-button:hover {
+  color: hsl(26, 100%, 55%);
+}
+
+.original-pricing {
+  clear: both;
+  color: hsl(220, 14%, 75%);
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.sneaker-count {
+  font-weight: 700;
+}
+
+.add-to-cart-button {
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 0.25rem;
+  color: hsl(25, 100%, 94%);
+  font-weight: 700;
+}
+
+.add-to-cart-button:hover {
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+}
+
+.attribution {
+  color: hsl(219, 9%, 45%);
+}
